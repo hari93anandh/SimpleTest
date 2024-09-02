@@ -1,0 +1,2172 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/apit/removeworkspace": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "5e35c6c7-ea04-4e27-89d7-fe63f85859d8"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/createCollection": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "6fe2b18f-1c1c-4b3c-ae41-6f155b8e6ffb"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/fetchAPITHistory": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "bab80799-6873-4b08-9ba0-ef1fd14e881f"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/updateuserrole": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "10018ff0-fac2-46fa-abe3-7979a0dfc233"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/createworkspace": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "26c3cdc8-4b23-4c6c-ad70-53e38c9c93d2"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/renameRequest": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "ac32ee40-dfcd-473a-ba10-2fa850512943"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/fetchusers": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "86ab4356-0454-4f83-a590-c16972cebde9"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "a06e0868-c909-4f60-9fe2-48e376bda35e"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/updateEnvironmentVariables": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "be0e2911-106b-446c-b3ff-f3b94dc03ae7"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/renameWorkspace": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "917fa570-da0a-4e36-a114-d3d687828a68"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/persistRequestOrder": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "680a8ec7-2d00-4463-9a15-05d44e6a8a85"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/removeinvite": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "email",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "dd40aa3d-40a7-44ec-83b4-a6b265987da2"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "email",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/renameEnvironment": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "80749293-c872-4283-9643-0d51e876f27b"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/forceuserrole": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "6ece3b4a-6803-46fb-b2dd-12faa95ce243"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/listWorkspaces": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "default"
+        ],
+        "operationId": "84d4ddb3-06ae-4a31-84a8-9c045cf2a88d"
+      },
+      "parameters": []
+    },
+    "/apit/renameCollection": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "2e7f92d0-ec95-45f8-b4fe-7d251ed94579"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/deleteWorkspace": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "8c5ad08c-03c7-423b-a9ba-9cf8a76df1ca"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/sendinvite": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "email",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "ed71bee8-b5d8-4ce6-911a-5320bb5a8108"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "email",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/fetchRunResponseFile": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "dfd1ffd2-40ac-4dbc-aa68-a14450cd404a"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/poll": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "12c509a4-13ca-4bee-be87-26483f218274"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/renameworkspace": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "oldworkspace",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "04438c5c-b662-43c7-a246-9a322b371401"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "oldworkspace",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/removeUser": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "6969c3c2-ffe6-4837-a247-185600adbe92"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/fetchAllWorkspaces": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "77ea8f8b-c9e1-41ef-861a-2535cbaf06a2"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/saveLocal": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "9678abf6-e58d-438c-a0b6-fa56569e2182"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/createEnvironment": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "313f5fef-423b-4499-b145-605b2ea3b6d6"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/changeActiveEnvironment": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "982bad4d-3cef-4d79-8cdf-d5b3c34973c7"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/jsp/apit/message.jsp": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "default"
+        ],
+        "operationId": "faae87ca-e03f-48d0-b875-0218309023cb"
+      },
+      "parameters": []
+    },
+    "/apit/createRequest": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "ee883c17-1e1a-4b1e-9d06-a802ea95c4d7"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/setWorkspaceAsDefault": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "4e59f098-4120-4dcc-bed0-e4af532baf3d"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/createWorkspaceTree": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "30d5cb52-f3b6-4e1a-b37e-380fb1c4172c"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/deleteCollection": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "1ecab2cf-3b1d-483e-8ae6-c2f72e56a393"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/logout": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "default"
+        ],
+        "operationId": "91236851-bbaa-4ee9-bcb1-99bafbd412bb"
+      },
+      "parameters": []
+    },
+    "/apit/deleteEnvironment": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "b0ad3fb8-dc91-460f-a28e-d396f9c902c0"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/deleteRequest": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "edd36f1a-6685-4dfe-a64f-4452931caa78"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/fetchUserObject": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "4d2b37ee-e0b1-442b-a7ac-bf6c716c28eb"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/changeActiveWorkspace": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "c3260d1d-0bfe-402a-a229-e3c2410779b6"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "default"
+        ],
+        "operationId": "3eb6d53f-1113-4042-8915-02e163a78e4f"
+      },
+      "parameters": []
+    },
+    "/apit/changeActiveRequest": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "a6a1da55-bb3c-4a26-90c5-7153060dc54b"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/changeActiveCollection": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "71b928bb-de4e-4cff-86bd-5b18e3b0a594"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/signupPage": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "09bc5187-dc42-4359-804e-9560dd3b71cc"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/createWorkspace": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "3135d25d-9af0-4d48-a906-d48eb395962b"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/analyseRequest": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "a43a7b14-d599-49e8-ad10-f61691297b8e"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/updateGlobalVariables": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "dc541c59-7043-402a-8b8a-be81f4a139b4"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    "/apit/createCollectionTree": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "requestObjectParameter",
+            "description": "",
+            "required": false
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "workspace",
+            "description": "",
+            "required": false
+          }
+        ],
+        "tags": [
+          "default"
+        ],
+        "operationId": "63ab0d34-1505-40fa-9082-f0cfdfeeab07"
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "requestObjectParameter",
+          "description": "",
+          "required": false
+        },
+        {
+          "schema": {
+            "type": "string"
+          },
+          "in": "query",
+          "name": "workspace",
+          "description": "",
+          "required": false
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": "API Description",
+    "title": "API Title",
+    "version": "1.0.0"
+  }
+}
